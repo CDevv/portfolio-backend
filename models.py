@@ -1,0 +1,1 @@
+# mariadb+mariadbconnector://<user>:<password>@<host>[:<port>]/<dbname>
