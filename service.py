@@ -52,4 +52,5 @@ def get_blog_by_id(session: Session, id: int):
     return scalar
 
 def close_session():
+    SessionLocal.close_all()
     engine.close()
